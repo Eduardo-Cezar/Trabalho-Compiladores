@@ -1,9 +1,0 @@
-
-    Viadagens para configurar
-git config --global user.email "seu e-mail"
-
-git config --global user.name "Seu Nome Completo"
-
-git config --global --list
-
-aiaiai
