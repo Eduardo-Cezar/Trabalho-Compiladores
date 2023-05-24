@@ -1,0 +1,23 @@
+grammar Gramatica;
+
+AP: '(';
+FP: ')';
+AC: '{';
+FC: '}';
+DEL: ':';
+VAR: 'vars';
+ID: LETRA(DIGITO | LETRA)*;
+NUM: DIGITO+('.'DIGITO+)?;
+TIPO: 'int' | 'float' | 'boolean' | 'str';
+FUN: 'func';
+CALL: 'call';
+RET: 'return';
+OPARIT: '+' | '-' | '*' | '/';
+OPREL: '>' | '<' | '>=' | '<=' | '!=' | '==';
+WHI: 'while';
+IF: 'if';
+THEN: 'then';
+ELSE: 'else';
+WS: [ \r\t\n]*->skip;
+fragment LETRA: [a-zA-Z];
+fragment DIGITO: [0-9];

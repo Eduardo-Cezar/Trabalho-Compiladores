@@ -1,0 +1,15 @@
+func int main(){
+	vars{
+		int valor1;
+		int valor2;
+	}
+
+	in(valor1);
+	in(valor2);
+
+	resultado = (valor1 + valor 2)  /  2;
+
+	out(valor);
+
+	return 0;
+}
