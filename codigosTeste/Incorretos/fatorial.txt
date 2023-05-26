@@ -1,0 +1,17 @@
+//função fatorial
+  func int fat(int n){
+    if (n == 1) then {
+              return 1;
+    }else{
+        return n * call fat (n-1);
+    }
+}
+  //função principal
+func int main(){
+    int n;  //aqui há um erro na declaração da variável, que deveria ser declarada dentro de um bloco de comando "var{}"
+
+    in(n);
+    out(fat(n)); //aqui há um erro na forma de chamar a função, devido a falta do comando "call"
+
+    return 0;
+}

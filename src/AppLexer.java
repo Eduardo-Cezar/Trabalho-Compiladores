@@ -6,7 +6,8 @@ import java.io.IOException;
 
 public class AppLexer {
     public static void  main (String[] args){
-        String filename = "/home/eduardo/Documentos/Materias/Compiladores/Trabalhos/TrabalhoCompiladores/codigo1.txt";
+        // !!!! Mudar o caminho abaixo !!!!!
+        String filename = "/home/eduardo/Documentos/Materias/Compiladores/Trabalhos/TrabalhoCompiladores/codigosTeste/Incorretos/fatorial.txt";
         try{
             CharStream input = CharStreams.fromFileName(filename);
             GramaticaLexer lexer = new GramaticaLexer(input);

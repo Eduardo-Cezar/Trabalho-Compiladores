@@ -1,0 +1,15 @@
+func int main(){
+    vars{
+        int valor1;
+	  int valor2;
+    }
+
+    cin (valor1);
+    cin(valor2);//Aqui há um erro nas entradas dos valores das variáveis, a qual deve ser feita pelo operador “in” e não “cin”
+
+    resultado = (valor1 + valor2)  /  2;
+
+    out(valor);
+
+    return 0;
+}

@@ -1,11 +1,14 @@
 grammar Gramatica;
 
-AP: '(';
+aP: '(';
 FP: ')';
 AC: '{';
 FC: '}';
-DEL: ':';
+ASP: '"';
+DEL: ';';
 VAR: 'vars';
+ATR: '=';
+CSTR: ASP(LETRA | DIGITO)*ASP;
 ID: LETRA(DIGITO | LETRA)*;
 NUM: DIGITO+('.'DIGITO+)?;
 TIPO: 'int' | 'float' | 'boolean' | 'str';
@@ -18,6 +21,8 @@ WHI: 'while';
 IF: 'if';
 THEN: 'then';
 ELSE: 'else';
-WS: [ \r\t\n]*->skip;
+WS: [ \r\t\n]+->skip;
+COM: '//' (LETRA | DIGITO | ACENTO | ASP)+->skip;
+fragment ACENTO: [A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ,'"“ ];
 fragment LETRA: [a-zA-Z];
 fragment DIGITO: [0-9];
