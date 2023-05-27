@@ -11,3 +11,5 @@
 * Casos de teste: algoritmos escritos na linguagem fonte com e sem erros léxicos.
 * Detalhes da implementação do analisador léxico com capturas de tela com descrição de tudo que foi gerado tanto pela equipe, quanto pelo ANTLR
 
+Link do documento: https://docs.google.com/document/d/1-Fhrg8UQIZwUEpFaGa-6-kUvUi_9zrZY_OIxq2PApCs/edit
+
