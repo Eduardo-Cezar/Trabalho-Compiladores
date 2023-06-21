@@ -18,6 +18,8 @@ public class AppLexer {
 
             ParseTree ast;
             ast = parser.inicio();
+
+            System.out.println(ast.toStringTree());
         } catch (IOException e){
             e.printStackTrace();
         }
