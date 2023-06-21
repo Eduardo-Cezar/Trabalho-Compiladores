@@ -1,7 +1,7 @@
 //função fatorial
-  func int fat(int n){
+func int fat(int n){
     if (n == 1) then {
-              return 1;
+        return 1;
     }else{
         return n * call fat (n-1);
     }
