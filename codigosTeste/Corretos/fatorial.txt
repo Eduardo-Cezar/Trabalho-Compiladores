@@ -1,13 +1,12 @@
-//função fatorial
 func integer fat(integer n){
 		if (n == 1) then {
                   return 1;
 		}else{
 			return n * call func fat (n - 1);
 		}
-	}
-//função principal
-func int main(){
+}
+
+func integer main(){
 		vars{
 			integer n;
 		}

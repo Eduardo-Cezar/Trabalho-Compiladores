@@ -57,6 +57,16 @@ public interface GramaticaListener extends ParseTreeListener {
 	 */
 	void exitChamada_func(GramaticaParser.Chamada_funcContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link GramaticaParser#chamada_funcSemPV}.
+	 * @param ctx the parse tree
+	 */
+	void enterChamada_funcSemPV(GramaticaParser.Chamada_funcSemPVContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link GramaticaParser#chamada_funcSemPV}.
+	 * @param ctx the parse tree
+	 */
+	void exitChamada_funcSemPV(GramaticaParser.Chamada_funcSemPVContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link GramaticaParser#acao}.
 	 * @param ctx the parse tree
 	 */
@@ -97,16 +107,6 @@ public interface GramaticaListener extends ParseTreeListener {
 	 */
 	void exitOperacao_logica(GramaticaParser.Operacao_logicaContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link GramaticaParser#operacao_logicaX}.
-	 * @param ctx the parse tree
-	 */
-	void enterOperacao_logicaX(GramaticaParser.Operacao_logicaXContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link GramaticaParser#operacao_logicaX}.
-	 * @param ctx the parse tree
-	 */
-	void exitOperacao_logicaX(GramaticaParser.Operacao_logicaXContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link GramaticaParser#operacao_aritmetica}.
 	 * @param ctx the parse tree
 	 */
@@ -116,6 +116,16 @@ public interface GramaticaListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitOperacao_aritmetica(GramaticaParser.Operacao_aritmeticaContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link GramaticaParser#condicional_senao}.
+	 * @param ctx the parse tree
+	 */
+	void enterCondicional_senao(GramaticaParser.Condicional_senaoContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link GramaticaParser#condicional_senao}.
+	 * @param ctx the parse tree
+	 */
+	void exitCondicional_senao(GramaticaParser.Condicional_senaoContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link GramaticaParser#condicional}.
 	 * @param ctx the parse tree
@@ -186,4 +196,14 @@ public interface GramaticaListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitAlgoritmo(GramaticaParser.AlgoritmoContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link GramaticaParser#retorno_de_funcao}.
+	 * @param ctx the parse tree
+	 */
+	void enterRetorno_de_funcao(GramaticaParser.Retorno_de_funcaoContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link GramaticaParser#retorno_de_funcao}.
+	 * @param ctx the parse tree
+	 */
+	void exitRetorno_de_funcao(GramaticaParser.Retorno_de_funcaoContext ctx);
 }

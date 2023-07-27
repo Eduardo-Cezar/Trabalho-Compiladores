@@ -75,6 +75,18 @@ public class GramaticaBaseListener implements GramaticaListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterChamada_funcSemPV(GramaticaParser.Chamada_funcSemPVContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitChamada_funcSemPV(GramaticaParser.Chamada_funcSemPVContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterAcao(GramaticaParser.AcaoContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -123,18 +135,6 @@ public class GramaticaBaseListener implements GramaticaListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterOperacao_logicaX(GramaticaParser.Operacao_logicaXContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitOperacao_logicaX(GramaticaParser.Operacao_logicaXContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterOperacao_aritmetica(GramaticaParser.Operacao_aritmeticaContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -142,6 +142,18 @@ public class GramaticaBaseListener implements GramaticaListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitOperacao_aritmetica(GramaticaParser.Operacao_aritmeticaContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterCondicional_senao(GramaticaParser.Condicional_senaoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitCondicional_senao(GramaticaParser.Condicional_senaoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -226,6 +238,18 @@ public class GramaticaBaseListener implements GramaticaListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAlgoritmo(GramaticaParser.AlgoritmoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterRetorno_de_funcao(GramaticaParser.Retorno_de_funcaoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitRetorno_de_funcao(GramaticaParser.Retorno_de_funcaoContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

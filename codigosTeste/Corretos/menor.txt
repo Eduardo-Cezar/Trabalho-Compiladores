@@ -1,0 +1,4 @@
+func integer8 main(){
+
+return 0;
+}

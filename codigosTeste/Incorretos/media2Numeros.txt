@@ -1,4 +1,4 @@
-func int main(){
+func integer main(){
     vars{
         integer valor1;
 	    integer valor2;
