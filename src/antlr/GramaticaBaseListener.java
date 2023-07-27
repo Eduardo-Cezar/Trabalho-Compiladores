@@ -66,6 +66,18 @@ public class GramaticaBaseListener implements GramaticaListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterBlocoDeclaracaoVarUni(GramaticaParser.BlocoDeclaracaoVarUniContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitBlocoDeclaracaoVarUni(GramaticaParser.BlocoDeclaracaoVarUniContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterChamadaFunc(GramaticaParser.ChamadaFuncContext ctx) { }
 	/**
 	 * {@inheritDoc}

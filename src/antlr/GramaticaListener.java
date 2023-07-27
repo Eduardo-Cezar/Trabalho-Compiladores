@@ -58,6 +58,18 @@ public interface GramaticaListener extends ParseTreeListener {
 	 */
 	void exitBlocoDeclaracaoVars(GramaticaParser.BlocoDeclaracaoVarsContext ctx);
 	/**
+	 * Enter a parse tree produced by the {@code BlocoDeclaracaoVarUni}
+	 * labeled alternative in {@link GramaticaParser#declaracao_var_uni}.
+	 * @param ctx the parse tree
+	 */
+	void enterBlocoDeclaracaoVarUni(GramaticaParser.BlocoDeclaracaoVarUniContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code BlocoDeclaracaoVarUni}
+	 * labeled alternative in {@link GramaticaParser#declaracao_var_uni}.
+	 * @param ctx the parse tree
+	 */
+	void exitBlocoDeclaracaoVarUni(GramaticaParser.BlocoDeclaracaoVarUniContext ctx);
+	/**
 	 * Enter a parse tree produced by the {@code ChamadaFunc}
 	 * labeled alternative in {@link GramaticaParser#chamada_func}.
 	 * @param ctx the parse tree

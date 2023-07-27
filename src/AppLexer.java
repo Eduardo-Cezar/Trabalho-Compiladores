@@ -4,13 +4,14 @@ import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.Token;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
-
+import antlr.GramaticaParser;
+import antlr.GramaticaLexer;
 import java.io.IOException;
 
 public class AppLexer {
     public static void  main (String[] args){
         // !!!! Mudar o caminho abaixo !!!!!
-        String filename = "/home/eduardo/Documentos/Materias/Compiladores/Trabalhos/TrabalhoCompiladores/codigosTeste/Corretos/media2Numeros.txt";
+        String filename = "/home/eduardo/Documentos/Materias/Compiladores/Trabalhos/TrabalhoCompiladores/codigosTeste/Corretos/testeSemantica.txt";
         GramaticaParser parser = getParse(filename);
 
         //obter arvore
